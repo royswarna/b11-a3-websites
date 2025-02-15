@@ -6,13 +6,14 @@
   <title>A2 Websites</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header class="bg-white-500">
-<nav class="flex justify-between items-center p-4 bg-white">
+<body class="flex flex-col justify-center max-w-[1600px]  h-auto ">
+  <header class=" justify-center bg-gradient-to-b
+  from-white to-[#EFEbe3]">
+<nav class="flex justify-between p-4">
 <div>
  <img src="c2-assets/logo-header.png" alt="">
 </div>
-<ul class="flex gap-4 font-normal">
+<ul class=" hidden md:flex gap-4 font-normal">
 <li><a href="">Product</a></li>
 <li><a href=""></a>Services</li>
 <li><a href="">Contact us</a></li>
@@ -22,8 +23,8 @@
   <button class="px-[20px] rounded border bg-green-600 text-white">Register</button>
 </div>
 </nav>
-<div class="bg-white-500 text-center py-10">
-  <div class="h-[227px] w-[827px] mt-0 mb-0 mr-auto text-center">
+<div class=" flex flex-col justify-center items-center mt-12">
+  <div class=" text-center">
     <h1 class="text-6xl font-semibold">Freshness <span class="text-green-600">You Can <br> Count </span>On, Prices You’ll Love!</h1>
     <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
   </div>
@@ -31,16 +32,37 @@
     <img src="c2-assets/hero-vegetables.png" alt="">
   </div>
 </div>
+
   </header>
   <main>
-<div class="items-center">
-  <div class="w-[424px] h-[367px] bg-[#EFEBE3]">
-    <img class="bg-white rounded" src="c2-assets/service.png" alt="">
+    <div class="mt-12"><h2 class=" flex font-semibold text-4xl text-green-600">Services</h2>
+      "></h2></div>
+<div class="w-[1320px] h-auto flex  gap-10 mt-12">
+    <div class="w-[424px] h-[367px] bg-[#EFEbe3] flex flex-col justify-center text-center px-12">
+      <div class="w-[150px] h-[150px] flex justify-center items-center p-4  bg-white rounded-3xl ">
+    <img src="c2-assets/service.png" alt=""></div>
+  <div><h2 class="font-semibold text-[24px]">24/7 Services </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p></div>
   </div>
+  <div class="w-[424px] h-[367px] bg-[#EFEbe3]">
+    <img class="bg-white"  src="c2-assets/delivery.png" alt="">
+    <h2 class="font-semibold text-[24px]">24/7 Services </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+  </div>
+  <div class="w-[424px] h-[367px] bg-[#EFEbe3]">
+    <img class="bg-white" src="c2-assets/healthy.png" alt="">
+    <h2 class="font-semibold text-[24px]">24/7 Services </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+  </div>
+    </div>
 </div>
+
+</div>
+</div>
+</section>
   </main>
-  <footer class="h-88 bg-green-500">
-<div class=""></div>
-  </footer>
+
+
+
 </body>
 </html>
